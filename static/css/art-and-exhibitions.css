@@ -1,0 +1,43 @@
+.page-filter .filter-category {
+  margin-bottom: 8px;
+}
+
+.page-filter .filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-filter .filter p {
+  margin: 0;
+  padding: 0 24px 0 0;
+}
+.is-small-filter {
+  font-size: 18px;
+}
+
+.filter-type{
+  width: 65%;
+}
+
+@media only screen and (min-width: 768px){
+.page-filter .filter-view .filter {
+    justify-content: flex-end;
+}
+}
+
+.art_right {
+  position: relative;
+  left: 120px;
+  padding-top: 100px;
+}
+
+.art_image{
+  margin: auto 0;
+  position: relative;
+  left: 100px;
+  width: 100%;
+}
+
+.art_text{
+  text-align: right;
+}

@@ -1,0 +1,129 @@
+.biography_image img {
+  width: 90%;
+  margin-bottom: 60px;
+}
+
+.introduction p {
+  width: calc(66.6666% - 100px);
+  font-size: 21px;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.biography{
+    margin-bottom: 120px;
+}
+
+.biography_video {
+  padding-left: 6%;
+}
+
+.uchronia {
+  margin: 120px;
+}
+
+.uchronia p{
+  font-size: 21px;
+  text-align: center;
+  margin: auto;
+  width: 700px;
+}
+
+.uchronia_image{
+  margin: 120px;
+  width: fit-content;
+
+}
+
+.uchronia_image p{
+  font-size: 14px;
+  text-align: right;
+}
+
+.metal_text{
+  font-size: 21px;
+  margin-top: 50%;
+  padding-right:20px;
+}
+
+.metal_image{
+  position: relative;
+  left: 50px;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px){
+.biography_quote {
+    font-size: 42px;
+}
+}
+.biography_quote{
+  margin: 120px;
+}
+.biography_quote quote {
+    display: block;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.biography_quote p{
+  text-align: center;
+}
+
+.biography_beauty{
+  text-align: center;
+  width: 50%;
+  margin: 120px auto;
+}
+.biography_beauty p{
+  font-size: 21px;
+}
+
+.stad img, .kristal img{
+  width: 100%;
+}
+
+.kristal{
+  margin:auto 0;
+  position: relative;
+  left: 50px;
+}
+
+.color img{
+  width: 100%;
+}
+.color h2, .color p{
+  position: relative;
+  left: 60px;
+}
+.color p{
+  font-size: 21px;
+}
+.color{
+  margin: auto 0;
+}
+
+.biography_last img{
+  width: 100%;
+}
+
+.biography_last_move{
+  position: relative;
+  left: 60px;
+  top: -40px;
+}
+
+.biography_last_move2{
+  position: relative;
+  left: 120px;
+  margin: auto 0;
+}
+
+.biography_last_container{
+  position: relative;
+  left: -40px;
+  margin: 120px;
+}

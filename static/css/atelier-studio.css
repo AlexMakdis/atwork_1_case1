@@ -1,0 +1,50 @@
+.page-introduction {
+  margin: 140px 0 80px;
+  background: transparent;
+}
+
+@media only screen and (min-width: 768px){
+.page-introduction p {
+    width: 66%;
+}}
+
+@media (min-width: 1024px){
+.page-introduction p {
+    font-size: 28px;
+    line-height: 44px;
+}}
+
+.item-event p{
+  color: #787878;
+  padding:0;
+  margin:0;
+}
+.atelier_box{
+  padding-top: 50px;
+  margin-bottom: 120px;
+}
+
+.atelier_box:nth-child(2), .atelier_box:nth-child(5){
+  position: relative;
+  left: 50px;
+  top: -30px
+  
+}
+.atelier_box:nth-child(3), .atelier_box:nth-child(6){
+  position: relative;
+  left: 100px;
+}
+
+
+.atelier_box img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.atelier_box p{
+  font-size: 21px;
+}
+
+.atelier_page{
+  margin: 160px 0 100px;
+}
